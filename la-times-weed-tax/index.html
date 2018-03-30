@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+    	<link rel="stylesheet" type="text/css" href="http://cookbook.latimes.com/css/ngux-tophat-1.2.3.min.css" />
+    	<link rel="stylesheet" type="text/css" href="http://cookbook.latimes.com/css/ngux-tophat-responsive-1.2.3.min.css" />
+    	<link href="css/normalize.css" rel="stylesheet" type="text/css">
+		<link href="css/jqueryui.css" rel="stylesheet" type="text/css">
+		<link href="css/styles.css" rel="stylesheet" type="text/css">
+	</head>
+ 
+	<body>
+
+		<h1>Are you spending double what your neighbors are on pot tax?</h1>
+
+		<p class="byline">
+    		By ALYSSA LYON, JOCELYN WOODS
+		</p>
+
+		<p class="dateline">
+    		<time datetime="2018-04-18" pubdate>April 18, 2018</time>
+		</p>
+ 
+
+		<p>Thirteen miles south of downtown Los Angeles, in the city of Carson, more than half of voters approved an 18 percent tax on all cannabis-related businesses. In the neighboring town of Culver City, that same tax is set at 0 -- for now. </p>
+
+
+		<p>This means if a customer were to purchase $100 worth of recreational weed in Carson, they would pay almost double the tax than if they were to buy it just 19 miles away.</p>
+
+		<p>Are you getting the best price for your pot? Enter what you'd like to spend and watch your total rise.</p>
+
+		<h5>*Note: This applies only to recreational cannabis, tax rates are subject to change.</h5>
+
+
+		<div class="calculator">
+
+			<h3>How much do you want to spend?</h3>
+
+			<input class="howmuch" type="number">
+
+			<h3>Find a city here</h3>
+
+			<form>
+			  	<input list="findcity" name="city" id="input">
+			  	<datalist id="findcity">
+			  	</datalist>
+			</form>
+
+			<p id="final"></p>
+
+			<button class="taxbtn"> Calculate!</button>
+
+		</div>
+
+		<div class="setme"></div>
+		
+		
+	</body>
+	</html>
+
+
+
+
+<!-- JAVASCRIPT -->
+	<script src="js/jquery.js"></script>
+	<script src="js/jqueryui.js"></script>
+	<script src="js/weedtax.json"></script>
+	<script src="js/script.js"></script>
+  </body>
+</html>
+
