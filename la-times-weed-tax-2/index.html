@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+    	<link rel="stylesheet" type="text/css" href="http://cookbook.latimes.com/css/ngux-tophat-1.2.3.min.css" />
+    	<link rel="stylesheet" type="text/css" href="http://cookbook.latimes.com/css/ngux-tophat-responsive-1.2.3.min.css" />
+    	<link href="css/normalize.css" rel="stylesheet" type="text/css">
+		<link href="css/jqueryui.css" rel="stylesheet" type="text/css">
+		<link href="css/styles.css" rel="stylesheet" type="text/css">
+	</head>
+ 
+	<body>
+
+		<h1>Will you may pay more for weed than your neighbors? It depends on your city’s taxes.</h1>
+
+		<p class="byline">
+    		By ALYSSA LYON, JOCELYN WOODS
+		</p>
+
+		<p class="dateline">
+    		<time datetime="2018-04-18" pubdate>April 18, 2018</time>
+		</p>
+ 
+
+		<p>Last year in Carson, voters decided to tax sales of recreational cannabis products 18% on top of state taxes. In the neighboring town of Culver City, that same tax does not exists for now.</p>
+
+
+		<p>This means someone spending $100 will pay $149 in Carson and $127 in Culver City, just 19 miles away. That's almost double the tax.</p>
+
+		<p>On the tails of California's legalization of recreational pot, cities throughout the state have begun imposing uniqiue taxes on cannabis within their borders.</p>
+
+		<p>Use our tool to see how your city compares.</p>
+
+		<h5>*Note: Recreational cannabis only. Based on available tax data as of March 2018, some cities not included.</h5>
+
+
+		<div class="calculator">
+
+			<h3>How much do you want to spend?</h3>
+
+			<!--<input class="howmuch" type="number">-->
+
+			<div class="slidecontainer">
+  				<input type="range" min="0" max="1000" step="5" value="100" class="slider" id="myRange">
+			</div>
+
+			<p>$<span id="demo"></span></p>
+
+			<h3>Find a city</h3>
+
+			<form>
+			  	<input list="findcity" name="city" id="input">
+			  	<datalist id="findcity">
+			  	</datalist>
+			</form>
+
+			<p id="final"></p>
+
+			<button class="taxbtn"> Compare!</button>
+
+		</div>
+
+		<div class="setme"></div>
+		
+		
+	</body>
+	</html>
+
+
+
+
+<!-- JAVASCRIPT -->
+	<script src="js/jquery.js"></script>
+	<script src="js/jqueryui.js"></script>
+	<script src="js/weedtax.json"></script>
+	<script src="js/script.js"></script>
+  </body>
+</html>
+
