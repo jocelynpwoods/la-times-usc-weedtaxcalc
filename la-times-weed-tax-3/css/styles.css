@@ -1,0 +1,143 @@
+/* styles.css 
+   Project: 
+   Author: 
+   Date: 
+	
+   Helpful links: 
+   	Web colors: 
+   		https://en.wikipedia.org/wiki/Web_colors#X11_color_names
+	Color picker tool:
+		https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool
+		http://colorpicker.com
+
+*/
+
+ 
+body {
+   margin: 80px;
+   width: 800px;
+   max-width: 100%;
+   min-width: 120px;
+}
+
+h1 {
+   font-family: 'LA Web Display Kis Bold',Georgia,serif;
+   font-size: 56px;
+   line-height: 57.5px;
+   font-weight: normal;
+   color: #000;
+   margin: 4px 0 10px;
+}
+
+p.byline {
+   font-size: 13px;
+   font-weight: bold;
+   line-height: 20px;
+   display: block;
+   color: #000;
+}
+
+p {
+   display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+
+}
+
+h5 {
+   margin-top: -10px;
+}
+
+.dateline {
+   font-family: 'Benton Gothic Regular',Arial,sans-serif;
+   font-size: 11px;
+   line-height: 13px;
+   text-transform: uppercase;
+   color: #333;
+}
+
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;
+    width: 50%;
+    height: 5px;
+    border-radius: 15px;   
+    background: #d3d3d3;
+    outline: none;
+    opacity: 1;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */ 
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: #4591B8;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #FF5443;
+    cursor: pointer;
+}
+
+.setme p {
+   margin-top: 35px;
+   padding-bottom: 25px;
+   font-size: 44px;
+   color: forestgreen;
+   width: 2000px;
+   font-weight: bolder;
+
+}
+
+.taxbtn {
+   border: 1px solid #4591B8;
+   border-radius: 6px;
+   text-transform: none;
+   font-weight: normal;
+   padding: 5px 14px;
+   background-color: white;
+   display: inline-block;
+   cursor: pointer;
+   letter-spacing: 1px;
+   margin: 3px 1px;
+   color: #4591B8;
+   text-shadow: none;
+   font-family: 'Benton Gothic Regular',Arial,sans-serif;
+   background-image: none;
+
+}
+
+h2 {
+   padding-top: 35px;
+}
+
+h4 {
+   padding-top: 45px;
+   padding-bottom: 25px;
+   font-size: 44px;
+   color: forestgreen;
+   width: 2000px;
+}
+
+
+
+
+
+
+
+
